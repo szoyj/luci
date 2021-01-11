@@ -32,6 +32,7 @@ return view.extend({
 		o.enabled  = 'on';
 		o.disabled = 'off';
 		o.default  = o.enabled;
+		o.rmempty  = false;
 
 		o = s.option(form.Flag, 'GatewayPorts', _('Gateway Ports'), _('Allow remote hosts to connect to local SSH forwarded ports'));
 		o.enabled  = 'on';
